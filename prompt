@@ -1,0 +1,7 @@
+PROMPT_DIRTRIM=2
+
+if [ "$color_prompt" = yes ]; then
+    PS1='[\A] \w '
+else
+    PS1='[\A] \w '
+fi

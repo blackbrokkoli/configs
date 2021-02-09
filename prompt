@@ -1,7 +1,3 @@
+# change the bash prompt
 PROMPT_DIRTRIM=2
-
-if [ "$color_prompt" = yes ]; then
-    PS1='[\A] \w '
-else
-    PS1='[\A] \w '
-fi
+PS1='\e[1;34m[\A]\e[1;32m \w \e[0m'
